@@ -12,7 +12,7 @@
         WindowStartupLocation="Manual"
         SizeToContent="WidthAndHeight"
         ResizeMode="NoResize">
-    <Grid Margin="8" Background="{StaticResource ControlBackgroundColor}" CornerRadius="{StaticResource DefaultCornerRadius}">
+    <Grid Margin="8">
         <!-- 使用Border实现圆角效果 -->
         <Border CornerRadius="{StaticResource DefaultCornerRadius}" Background="{StaticResource ControlBackgroundColor}">
             <StackPanel Margin="8" HorizontalAlignment="Center" VerticalAlignment="Center">

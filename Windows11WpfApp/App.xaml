@@ -15,7 +15,7 @@
             <SolidColorBrush x:Key="HoverBorderColor" Color="#606060" />
             
             <!-- 圆角定义 -->
-            <CornerRadius x:Key="DefaultCornerRadius" RadiusX="8" RadiusY="8" />
+            <CornerRadius x:Key="DefaultCornerRadius">8</CornerRadius>
             
             <!-- 窗口样式 -->
             <Style TargetType="Window">
@@ -31,7 +31,6 @@
             <!-- 容器样式 -->
             <Style TargetType="Grid">
                 <Setter Property="Background" Value="{StaticResource ControlBackgroundColor}" />
-                <Setter Property="CornerRadius" Value="{StaticResource DefaultCornerRadius}" />
             </Style>
             
             <!-- 按钮样式 -->
