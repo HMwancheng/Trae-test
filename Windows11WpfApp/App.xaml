@@ -73,11 +73,11 @@
                                 <Border Grid.Row="1" Background="{StaticResource BorderColor}" Height="4" CornerRadius="2" />
                                 <Track Grid.Row="1" Name="PART_Track">
                                     <Track.DecreaseRepeatButton>
-                                        <RepeatButton Background="{StaticResource AccentColor}" CornerRadius="2" Height="4" />
-                                    </Track.DecreaseRepeatButton>
-                                    <Track.IncreaseRepeatButton>
-                                        <RepeatButton Background="Transparent" CornerRadius="2" Height="4" />
-                                    </Track.IncreaseRepeatButton>
+                    <RepeatButton Background="{StaticResource AccentColor}" Height="4" />
+                </Track.DecreaseRepeatButton>
+                <Track.IncreaseRepeatButton>
+                    <RepeatButton Background="Transparent" Height="4" />
+                </Track.IncreaseRepeatButton>
                                     <Track.Thumb>
                                         <Thumb Width="20" Height="20" Background="{StaticResource ControlBackgroundColor}" BorderBrush="{StaticResource AccentColor}" BorderThickness="2" CornerRadius="10">
                                             <Thumb.Style>
